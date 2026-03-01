@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Casey Tatar
+# DATE: 3/1/2026
+# BRIEF DESCRIPTION:  Building off of compliment_01.py, this program goes a step further and will have custom output for yes as well as not yes (see the Sample Output for more details).
 
 
 
@@ -15,7 +15,20 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
 
+def compliment():
+    answer = input('Would you like a compliment? ')
+
+    if answer == 'yes':
+        print('You have wonderful eyes.')
+
+    else: print('No compliment for you!')
+
+    print('Thank you for playing.')
+
+main()
 
 
 
@@ -71,7 +84,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+This one was rather straightforward from the previous compliment lab.
 
 
 
